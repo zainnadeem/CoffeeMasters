@@ -11,6 +11,7 @@
 		BF1F21EB2C69056D009B5BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F21EA2C69056D009B5BB2 /* ContentView.swift */; };
 		BF1F21ED2C690571009B5BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1F21EC2C690571009B5BB2 /* Assets.xcassets */; };
 		BF1F21F02C690571009B5BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1F21EF2C690571009B5BB2 /* Preview Assets.xcassets */; };
+		BF1F21F72C691BB2009B5BB2 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F21F62C691BB2009B5BB2 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BF1F21EA2C69056D009B5BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF1F21EC2C690571009B5BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1F21EF2C690571009B5BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1F21F62C691BB2009B5BB2 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BF1F21E82C69056D009B5BB2 /* CoffeeMastersApp.swift */,
 				BF1F21EA2C69056D009B5BB2 /* ContentView.swift */,
+				BF1F21F62C691BB2009B5BB2 /* Offer.swift */,
 				BF1F21EC2C690571009B5BB2 /* Assets.xcassets */,
 				BF1F21EE2C690571009B5BB2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1F21F72C691BB2009B5BB2 /* Offer.swift in Sources */,
 				BF1F21EB2C69056D009B5BB2 /* ContentView.swift in Sources */,
 				BF1F21E92C69056D009B5BB2 /* CoffeeMastersApp.swift in Sources */,
 			);
