@@ -1,17 +1,18 @@
-//
-//  CoffeeMastersApp.swift
-//  CoffeeMasters
-//
-//  Created by Zain Nadeem on 8/11/24.
-//
-
 import SwiftUI
 
 @main
 struct CoffeeMastersApp: App {
+    
+    var menuManager = MenuManager()
+    var cartManager = CartManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+             ContentView()
+                .environmentObject(menuManager)
+                .environmentObject(cartManager)
         }
     }
 }
+
+
